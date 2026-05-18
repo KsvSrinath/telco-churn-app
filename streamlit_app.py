@@ -18,7 +18,7 @@ with col2:
     contract_renewal = st.selectbox("Contract Renewal", [0, 1])
     data_plan        = st.selectbox("Data Plan",        [0, 1])
 
-API_URL = "http://127.0.0.1:8000/predict"  # ← replace after deploy
+API_URL = "http://65.0.72.226:8000/predict"  # ← replace after deploy
 
 if st.button("🔍 Predict Churn"):
     payload = {
